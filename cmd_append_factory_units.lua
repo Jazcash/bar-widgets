@@ -81,7 +81,7 @@ end
 
 function getSingleFactory()
 	local selUnits = Spring.GetSelectedUnits()
-
+    
 	if #selUnits ~= 1 then
 		return nil, nil
 	end
